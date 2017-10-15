@@ -1,7 +1,7 @@
 <?php
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 use \TANIOS\Airtable\Airtable;
-require 'config.php';
+require '../config.php';
 $airtable = new Airtable($airtable_config);
 
 echo "<pre>";
